@@ -58,8 +58,34 @@ No special software is required to view the project locally. Any modern web brow
 - **JavaScript**
 
 
-## Credits
+## Contributing
 
-- Developed by **Kanika Chauhan**
-- Pokémon is a registered trademark of Nintendo, Game Freak, and Creatures.
+Contributions are welcome! If you have any ideas for improvements, open an issue or create a pull request.
+
+## Credits
+Created by:
+
+[![Kanika Chauhan](https://img.shields.io/badge/Kanika_Chauhan-GitHub-00F79?logo=github&logoColor=white&style=for-the-badge)](https://github.com/Kanika1305) 
+
+Under the guidance of:
+
+
+[![Kunal Upadhyay GitHub](https://img.shields.io/badge/Kunal_Upadhyay-GitHub-red?logo=github&style=for-the-badge)](https://github.com/Kunal-Upadhyay)               [![Prateek Kumar GitHub](https://img.shields.io/badge/Prateek_Kumar-GitHub-red?logo=github&style=for-the-badge)](https://github.com/geeekdude)
+
+
+
+
+
+## Developer:
+Kanika Chauhan
+
+## Contacts:
+
+[![Gmail](https://img.shields.io/badge/-Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:kanika13c@gmail.com)
+
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/kanika-chauhandb13/)
+
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=for-the-badge)](https://github.com/Kanika1305)
+
 
