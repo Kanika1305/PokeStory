@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Pokemon Story</title>
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+    <link rel="icon" type="image/png" href="icons/pokeball.png">
+
+    <link rel="stylesheet" href="st.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div id="background-container"></div> 
+    <audio id="background-audio" loop></audio> 
+    <div id="loading-screen">
+        <div class="pokeball-loading"></div>
+        <div class="loading-text">Loading your Pokémon adventure...</div>
+    </div>
+
+    <header>
+        <h1>
+            <div class="pokeball-inline">
+                <div class="pokeball-top"></div>
+                <div class="pokeball-center"></div>
+                <div class="pokeball-bottom"></div>
+            </div>
+            YOUR POKEMON STORY
+        </h1>
+    </header>
+   <main>
+    <div class="story-container">
+        <div id="story-text" class="story-text"></div>
+        <div class="small-text">Click to hear the story!</div> 
+
+        <button id="play-tts" class="play-button">▶️</button>
+      <div id="options" class="options"></div>
+
+    </div>
+</main> 
+<footer>
+    <p>Developed by Kanika Chauhan</p>
+    <p>Description: Take your own path in the world of Pokemon and write your own story. Catch 'em all!</p>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://pokestory.netlify.app/" target="_blank" title="Share on LinkedIn">
+            <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://pokestory.netlify.app/" target="_blank" title="Share on Facebook">
+            <img src="https://img.icons8.com/color/48/facebook-new.png" alt="Facebook">
+        </a>
+        <a href="https://api.whatsapp.com/send?text=Check%20out%20this%20awesome%20Pokémon%20story:%20https://pokestory.netlify.app/" target="_blank" title="Share on WhatsApp">
+            <img src="https://img.icons8.com/color/48/whatsapp.png" alt="WhatsApp">
+        </a>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: cp;
+    src: url(fonts/PakPresiden-zrm53.ttf);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    z-index: -1;
+    
+}
+
+
+header {
+    text-align: center;
+    padding: 10px;
+    color: rgb(232, 200, 19);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100px; 
+    background: linear-gradient(180deg, #e61005, #010308,#e0dfda);
+}
+header h1 {
+    display: inline-flex;
+    gap: 20px; 
+    font-family: 'Pokemon Solid', sans-serif;
+   font-size: 2.0em;
+    text-shadow: 2px 2px 15px rgba(10, 10, 10, 0.7),
+                 0 0 27px #097090; 
+    color: rgb(232, 200, 19);
+    margin-top: -5px;
+}
+main {
+    flex-grow: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2c2c2c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.pokeball-loading {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to bottom, #ff1c1c 50%, #fff 50%);
+    border-radius: 50%;
+    border: 5px solid #000;
+    position: relative;
+    animation: spin 1s linear infinite;
+}
+
+.pokeball-loading::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 5px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.loading-text {
+    margin-top: 20px;
+    font-family: cp;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+
+.loaded #loading-screen {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease, visibility 1s ease;
+}
+.pokeball-inline {
+    width: 55px; 
+    height: 55px; 
+    border: 3px solid black;
+    border-radius: 50%;
+    background: white;
+    position: relative;
+    top: 20px;
+    animation: spin 4s linear infinite;
+    display: inline-block;
+}
+
+
+.pokeball-top {
+    width: 100%;
+    height: 50%;
+    background: #ff0000;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom: 4px solid black;
+}
+
+.pokeball-center {
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 4px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pokeball-bottom {
+    width: 100%;
+    height: 50%;
+    background: white;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.pokedex {
+    width: 350px;
+    height: 460px;
+    background: linear-gradient(135deg, #dc143c, #e90808);
+    border: 4px solid rgb(61, 58, 58);
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    margin: 30px auto;  
+}
+
+
+
+.screen {
+    width: 270px;
+    height: 190px;
+    background-color: #171a1d;
+    border-radius: 10px;
+    border: 9px solid #ded8d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.start-btn {
+    text-align: center;
+}
+
+button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: cp;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: #45a049;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1716;
+    color: hsl(51, 57%, 91%);
+     font-family: 'Pokemon Solid', sans-serif;
+   box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+   font-size: 0.7em;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.social-links a:hover {
+    transform: scale(1.2);
+}
+
+.social-links img {
+    width: 32px;
+   height: 32px;
+}
+@media (max-width: 768px) {
+    
+    header {
+        height: 120px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+        gap: 10px;
+    }
+
+    .pokeball-inline {
+        width: 45px;
+        height: 45px;
+    }
+
+    .pokedex {
+        width: 300px;
+        height: 400px;
+    }
+
+    .screen {
+        width: 230px;
+        height: 160px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        height: 80px;
+    }
+    .pokeball-center {
+        width: 15px;
+        height: 15px;
+    }
+
+    header h1 {
+        font-size: 1.3em;
+        gap: 10px;
+        margin-top: 18px;
+    }
+
+    .pokeball-inline {
+        width: 35px;
+        height: 35px;
+       top: -1px;
+    }
+
+    .pokedex {
+        width: 250px;
+        height: 400px;
+    }
+
+    .screen {
+        width: 200px;
+        height: 140px;
+    }
+footer{
+    font-size: 0.6em;
+}
+    button {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+}
+

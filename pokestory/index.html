@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex - Your Pokemon Story</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+<meta property="og:title" content="Your Pokémon Story">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+
+    <meta property="og:description" content="Begin your own Pokémon adventure. Choose your path and unravel mysteries!">
+    <meta property="og:image" content="https://i.imgur.com/b1cMZEp.jpeg"> 
+    <meta property="og:url" content="https://pokestory.netlify.app/"> 
+    <meta property="og:type" content="website">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <link rel="icon" type="image/png" href="icons/pokeball.png">
+    <meta name="keywords" content="Pokémon story, interactive Pokémon game, Pokémon adventure, RPG game, Pokémon RPG, Verdantville, Team Eclipse, legendary Pokémon, choose your Pokémon, Pokémon trainer, story-driven game, web-based game, interactive storytelling, Pokémon journey, online Pokémon adventure, catch Pokémon, Pokémon challenges, wild Pokémon, Pokémon battles, immersive adventure, Pokémon world, Pokémon evolution, trainer battles, Pokémon forest, Professor Elm, choose Charizard, choose Blastoise, Pokémon center, Pokémon camp, Pokémon cave, capture Pidgey, Team Eclipse hideout, mystery Pokémon, Pokémon forest exploration, rival trainer, puzzles and trials, Pokémon quest, legendary Pokémon lair, adventure game, fan-made Pokémon story, game start Pokémon">
+</head>
+<body id="bd">
+    <div id="loading-screen">
+        <div class="pokeball-loading"></div>
+        <div class="loading-text">Loading ...</div>
+    </div>
+
+    <header>
+        <h1>
+            <div class="pokeball-inline">
+                <div class="pokeball-top"></div>
+                <div class="pokeball-center"></div>
+                <div class="pokeball-bottom"></div>
+            </div>
+            YOUR POKEMON STORY
+        </h1>
+    </header>
+    
+<main>
+    <div class="pokedex">
+        <div class="screen">
+            <div id="storyContainer"></div> 
+            <div class="start-btn">
+                <a href="story.html"><button id="game-start"> Let's Start</button></a>    
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <p>Developed by Kanika Chauhan</p>
+    <p>Description: Take your own path in the world of Pokemon and write your own story. Catch 'em all!</p>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://pokestory.netlify.app/" target="_blank" title="Share on LinkedIn">
+            <img src="icons/MdiLinkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://pokestory.netlify.app/" target="_blank" title="Share on Facebook">
+            <img src="icons/MdiFacebookBox.png" alt="Facebook">
+        </a>
+        <a href="https://api.whatsapp.com/send?text=Check%20out%20this%20awesome%20Pokémon%20story:%20https://pokestory.netlify.app/" target="_blank" title="Share on WhatsApp">
+            <img src="icons/IonLogoWhatsapp.png" alt="WhatsApp">
+        </a>
+    </div>
+</footer>
+
+<script>
+    VANTA.NET({
+  el: "#bd",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0xefe8ea,
+  backgroundColor: 0xd0d0e,
+  maxDistance: 10.00,
+  spacing: 20.00
+})
+
+    
+
+    
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.body.classList.add('loaded');
+            }, 3000); 
+        });
+
+            
+    
+    </script>
+</body>
+</html>

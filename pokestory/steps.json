@@ -1,0 +1,178 @@
+{
+    "storySteps": [
+    {
+        "text": "Chapter 1: Awakening in Verdantville\n\nYou awaken to the soft glow of sunrise in Verdantville—a peaceful town known for its deep love of Pokémon. Rumors whisper of a mysterious group called Team Eclipse and tales of a legendary Pokémon hidden in the ancient forest beyond.\n\nWhat will you do?",
+       "backgroundImage": "url('images/townpc.jpg')", 
+        "audio": "audio/town.mp3", 
+       "options": [
+            { "text": "Visit Professor Elm's Lab", "nextStep": 1 },
+            { "text": "Explore the Town", "nextStep": 2 }
+        ]
+    },
+    {
+        "text": "Chapter 2: The Professor’s Guidance\n\nInside the bustling lab, Professor Elm greets you warmly. He explains the history of the region, the sacred bond between trainers and Pokémon, and warns you about the nefarious Team Eclipse. He then offers you your very first partner Pokémon.",
+       "backgroundImage": "url('images/labpc.jpg')",
+        "audio": "audio/lab.mp3",
+        "options": [
+            { "text": "Choose Charizard (Fire-type)", "nextStep": 3 },
+            { "text": "Choose Blastoise (Water-type)", "nextStep": 4 }
+        ]
+    },
+    {
+        "text": "Chapter 2: Exploring the Town\n\nWandering through Verdantville’s charming streets, you overhear trainers discussing strange happenings at the Pokémon Center concerning Team Eclipse. Realizing you need guidance, you decide to head to the lab.",
+        "backgroundImage": "url('images/townexpc.jpg')",
+        "audio": "audio/townex.mp3",
+        "options": [
+            { "text": "Head to Professor Elm's Lab","nextStep": 1 }
+        ]
+    },
+    {
+        "text": "Chapter 3: Choosing Your Partner\n\nYou choose Charizard—a fiery Pokémon whose burning spirit mirrors your own determination. With your new partner in tow, you set out toward the wild forest.\n\nWhat will you do next?",
+        "backgroundImage": "url('images/charizardpc.png')",
+        "audio": "audio/charizards-roar-audiotrimmer.mp3",
+        "options": [
+            { "text": "Enter the Wild Forest", "nextStep": 5 },
+            { "text": "Practice in the Field", "nextStep": 6 }
+        ]
+    },
+    {
+        "text": "Chapter 3: Choosing Your Partner\n\nYou choose Blastoise—a water-type Pokémon with calm determination. With Aquarion by your side, you head toward the mysterious forest.\n\nWhat will you do next?",
+        "backgroundImage": "url('images/blastoisepc.jpg')",
+       "audio": "audio/9.mp3",
+        "options": [
+            { "text": "Enter the Wild Forest", "nextStep": 5 },
+            { "text": "Visit the Lake for Training", "nextStep": 7 }
+        ]
+    },
+    {
+        "text": "Chapter 4: Into the Wild Forest\n\nYou step into the dense forest where towering trees and dappled sunlight create an enchanting, yet eerie, atmosphere. Before long, you notice a wild Pidgey fluttering among the branches.\n\nYour choice:",
+        "backgroundImage": "url('images/wforestpc.jpg')",
+        "audio": "audio/forest.mp3",
+        "options": [
+            { "text": "Attempt to Catch Pidgey", "nextStep": 8 },
+            { "text": "Engage in a Friendly Battle", "nextStep": 9 }
+        ]
+    },
+    {
+        "text": "Chapter 5: Trials and Rivalry\n\nWhile training in an open field, a rival trainer challenges you to a battle. The contest tests your strategies and deepens the bond with your Pokémon.",
+        "backgroundImage": "url('images/tainercpc.jpg')",
+       "audio": "audio/Trainers' Eyes Meet (Collector).mp3",
+        "options": [
+            { "text": "Accept the Rival’s Challenge", "nextStep": 10 },
+            { "text": "Decline and Continue Training", "nextStep": 11 }
+        ]
+    },
+    {
+        "text": "Chapter 5: Trials and Rivalry\n\nBy the lake, as you hone your skills, a rival trainer suddenly appears and challenges you. The encounter promises to test your abilities.",
+        "backgroundImage": "url('images/trainerbpc.jpg')",
+        "audio": "audio/Trainers' Eyes Meet (Twins).mp3",
+        "options": [
+            { "text": "Accept the Rival’s Challenge", "nextStep": 10 },
+            { "text": "Decline and Continue Training", "nextStep": 11 }
+        ]
+    },
+    {
+        "text": "Chapter 4: Into the Wild Forest\n\nUsing a well-timed throw, you catch the wild Pidgey, adding a loyal new member to your team.",
+        "backgroundImage": "url('images/pidgeycatch2.jpg')",
+        "audio": "audio/catchpidgey.mp3",
+        "options": [
+            { "text": "Venture Deeper into the Forest","nextStep": 12 }
+        ]
+    },
+    {
+        "text": "Chapter 4: Into the Wild Forest\n\nAfter a friendly skirmish, Pidgey is impressed by your skills and decides to join your team.",
+        "backgroundImage": "url('images/pidgeycatch2.jpg')",
+        "audio": "audio/catchpidgey.mp3",
+        "options": [
+            { "text": "Venture Deeper into the Forest", "nextStep": 12 }
+        ]
+    },
+    {
+        "text": "Chapter 5: Trials and Rivalry\n\nYou engage in a fierce battle with your rival. Whether you win or learn from defeat, your reputation as a promising trainer grows.",
+        "backgroundImage": "url('images/battlepc.jpg')",
+        "audio": "audio/Battle! (Wild Pokémon).mp3",
+        "options": [
+            { "text": "Continue into the Forest", "nextStep": 12 },
+            { "text": "Retreat and Train Further", "nextStep": 11 }
+        ]
+    },
+    {
+        "text": "Chapter 5: Trials and Rivalry\n\nDeciding to sharpen your skills further, you continue training, preparing yourself for the challenges ahead.",
+        "backgroundImage": "url('images/train.png')",
+        "audio": "audio/Battle! (Elite Four).mp3",
+        "options": [
+            { "text": "Enter the Wild Forest", "nextStep": 5 }
+        ]
+    },
+    {
+        "text": "Chapter 6: The Shadows of Team Eclipse\n\nVenturing deeper, the forest grows darker and more mysterious. You find evidence of Team Eclipse—broken branches, strange symbols, and abandoned gear hinting at their sinister plans to capture a legendary Pokémon.\n\nWhat is your decision?",
+        "backgroundImage": "url('images/forestpc.jpg')",
+        "audio": "audio/forest.mp3",
+        "options": [
+            { "text": "Investigate the Abandoned Campsite", "nextStep": 13 },
+            { "text": "Press On Alone", "nextStep": 14 }
+        ]
+    },
+    {
+        "text": "Chapter 6: The Shadows of Team Eclipse\n\nAt the campsite, you find cryptic notes and a map suggesting a hidden entrance behind a waterfall. The clues hint that the legendary Pokémon's lair lies beyond.",
+        "backgroundImage": "url('images/campsitepc.jpg')",
+        "audio": "audio/Valor Lakefront (Night).mp3",
+        "options": [
+            { "text": "Follow the Clue to the Waterfall", "nextStep": 15 }
+        ]
+    },
+    {
+        "text": "Chapter 6: The Shadows of Team Eclipse\n\nIgnoring the campsite, you press further into the forest. The mysteries intensify as the threat of Team Eclipse looms larger.",
+        "backgroundImage": "url('images/download (14).jpg')",
+        "audio": "audio/forest.mp3",
+        "options": [
+            { "text": "Search for a Hidden Path", "nextStep": 15 }
+        ]
+    },
+    {
+        "text": "Chapter 7: The Hidden Cave\n\nAt the waterfall, you discover a narrow passage behind the cascading water that leads into an ancient cave. The walls are aglow with bioluminescent moss and adorned with mysterious carvings. Puzzles and trials await you here to prove your worth.",
+        "backgroundImage": "url('images/download (3).jpg')",
+        "audio": "audio/Oreburgh Gate.mp3",
+        "options": [
+            { "text": "Enter the Cave", "nextStep": 17 },
+            { "text": "Return to Town to Prepare", "nextStep": 16 }
+        ]
+    },
+    {
+        "text": "Chapter 7: The Hidden Cave\n\nDeciding to better prepare, you return to Verdantville to gather allies and resources. Once ready, you form a team and head back to the cave.",
+        "backgroundImage": "url('images/cave.jpg')",
+        "audio": "audio/Oreburgh Gate.mp3",
+        "options": [
+            { "text": "Enter the Cave", "nextStep": 17 }
+        ]
+    },
+    {
+        "text": "Chapter 8: The Legendary Encounter\n\nInside the cave, you navigate shifting corridors and solve intricate puzzles. Finally, you enter a grand chamber bathed in ethereal light. There, in majestic silence, stands the legendary Pokémon—guardian of nature and balance.",
+        "backgroundImage": "url('images/cavepok.jpg')",
+        "audio": "audio/Spear Pillar.mp3",
+        "options": [
+            { "text": "Challenge the Legendary Pokémon", "nextStep": 18 }, 
+            { "text": "Attempt to Befriend the Legendary Pokémon", "nextStep": 19 }, 
+            { "text": "Respectfully Withdraw", "nextStep": 20 }
+        ]
+    },
+    {
+        "text": "Chapter 9: The Final Encounter\n\nYou engage in an epic battle with the legendary Pokémon. The fight is intense, but your perseverance and the bond with your team lead you to victory. Impressed by your spirit, the legendary Pokémon chooses to join your team.\n\n\n THE END",
+        "backgroundImage": "url('images/legdbatt.jpg')",
+        "audio": "audio/Battle! (Gym Leader).mp3",
+        "options": []
+    },
+    {
+        "text": "Chapter 9: The Path of Friendship\n\nInstead of fighting, you approach the legendary Pokémon with kindness and respect. It senses your pure intentions and forms a bond of friendship with you, offering its wisdom and protection.\n\n\n THE END",
+        "backgroundImage": "url('images/friendship.jpg')",
+        "audio": "audio/Ending Theme.mp3",
+        "options": []
+    },
+    {
+        "text": "Chapter 9: A Respectful Withdrawal\n\nRecognizing the legendary Pokémon’s immense power, you choose to respectfully withdraw. Sometimes, the greatest strength lies in knowing when to step away.\n\n\n THE END",
+        "backgroundImage": "url('images/token.png')",
+        "audio": "audio/Ending Theme.mp3",
+        "options": []
+    }
+]
+}
