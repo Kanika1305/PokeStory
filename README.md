@@ -1,6 +1,6 @@
 
 # Your Pokémon Story
-![POkemon story](Pokémon wallpaper.jpg)
+![POkemon story](Pokémon.jpg)
 
 Welcome to **Your Pokémon Story**! This is an interactive webpage that lets users explore and craft their own Pokémon adventure. The page includes animations, background music, and options to share your adventure on social media.
 
